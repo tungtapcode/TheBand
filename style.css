@@ -72,6 +72,7 @@ width: 100%;
   left: 0;
   right: 0;
   z-index: 1;
+  overflow: hidden;
 }
 #nav {
   display: inline-block;
@@ -117,8 +118,15 @@ width: 100%;
 #nav nav-down {
   font-size: 15px;
 }
+#header .menu-mobile,
 #header .search-btn {
   float: right;
+}
+#header .menu-bars{
+  color: #fff;
+  font-size: 20px;
+  line-height: 46px;
+
 }
 #header .search-icon {
   color: #fff;
@@ -417,5 +425,3 @@ width: 100%;
 #footer p{
     color: #ccc;
 }
-/* RESPONSIVE */
-media
